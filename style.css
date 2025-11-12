@@ -4,15 +4,13 @@ body {
     
     /* Add these lines */
     display: flex;
+    height: 100vh;           /* Must have height for vertical centering */
     justify-content: center; /* Centers horizontally */
     align-items: center;   /* Centers vertically */
-    height: 100vh;           /* Must have height for vertical centering */
 }
 
 #map {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     height: 90vh;
     width: 150vh;
 }
